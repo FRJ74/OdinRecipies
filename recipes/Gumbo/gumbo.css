@@ -1,3 +1,10 @@
+/* Global stylings */
+
+* {
+    box-sizing: border-box;
+  }
+
+ /* Main stylings */ 
 body {
     background-color: antiquewhite;
 }
@@ -36,3 +43,5 @@ li.counter::before {
     font-weight: bold;
     margin-right: 5px;
 }
+
+/* Styling Ingredients with boxes*/
