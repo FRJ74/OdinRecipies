@@ -44,4 +44,28 @@ li.counter::before {
     margin-right: 5px;
 }
 
-/* Styling Ingredients with boxes*/
+/* Styling Ingredients & image with boxes*/
+
+.container {
+    display: flex;
+    align-items: stretch;
+}
+
+.image-box, .text-box {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-box {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
