@@ -1,13 +1,15 @@
 body {
     background-color: antiquewhite;
 }
-
+/* Add a counter to enumerate the steps */
 ol {
     counter-reset: section;
     list-style-type: none;
 }
 
-li::before {
+li.counter::before {
     counter-increment: section;
     content: "Step " counter(section) " ";
+    font-weight: bold;
+    margin-right: 5px;
 }
