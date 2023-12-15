@@ -1,0 +1,25 @@
+/* Global stylings */
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* Main stylings */
+   body {
+    background-color: powderblue;
+
+   }
+
+   h1 {
+    text-align: center;
+    font-family: 'Sofia';
+    font-size: 122px;
+    color:aliceblue;
+   }
+
+   p {
+    color: dodgerblue;
+    font-weight: 600;
+    padding: 100px;
+
+   }
