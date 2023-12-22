@@ -9,11 +9,12 @@ body {
     background-color: bisque;
 }
 
-img {
+.img1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    border-radius: 10%;
 }
 
 h1 {
@@ -57,9 +58,10 @@ li.counter::before {
     padding: 10px;
 }
 
-.image-box img {
+.image-box, .img2 img {
     max-width: 100%;
     height: auto;
+    
 }
 
 .text-box {
