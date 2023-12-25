@@ -9,13 +9,6 @@ body {
     background-color: bisque;
 }
 
-.img1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    border-radius: 10%;
-}
 
 h1 {
     text-align: center;
@@ -50,6 +43,7 @@ li.counter::before {
 .container {
     display: flex;
     align-items: stretch;
+    margin-top: 20px;
 }
 
 .image-box, .text-box {
@@ -58,13 +52,29 @@ li.counter::before {
     padding: 10px;
 }
 
-.image-box, .img2 img {
+.image-box img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
     
 }
 
 .text-box {
     font-size: 16px;
     line-height: 1.5;
+    
 }
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 10%;
+}
+
+.img2 {
+    border-radius: 10px !important;
+    
+}
+
